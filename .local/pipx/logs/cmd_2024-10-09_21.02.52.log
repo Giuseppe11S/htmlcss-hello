@@ -1,0 +1,62 @@
+   264.6ms (setup:1108): 2024-10-09 21:02:52
+   264.6ms (setup:1109): /opt/homebrew/bin/pipx install bot.py
+   264.6ms (setup:1110): pipx version is 1.7.1
+   264.6ms (setup:1111): Default python interpreter is '/opt/homebrew/opt/python@3.12/libexec/bin/python'
+   264.7ms (mkdir:76): creating directory /Users/giuseppesena/.local/pipx/venvs
+   264.7ms (mkdir:76): creating directory /Users/giuseppesena/.local/bin
+   264.8ms (mkdir:76): creating directory /Users/giuseppesena/.local/share/man
+   264.8ms (mkdir:76): creating directory /Users/giuseppesena/.local/pipx/.cache
+   264.9ms (mkdir:76): creating directory /Users/giuseppesena/.local/pipx/py
+   264.9ms (setup:1125): Adding CACHEDIR.TAG to cache directory
+   265.0ms (setup:1125): Adding CACHEDIR.TAG to cache directory
+   265.5ms (package_name_from_spec:378): Determined package name: bot-py
+   265.5ms (package_name_from_spec:379): Package name determined in 0.0s
+   265.6ms (create_venv:164): Creating virtual environment
+   265.7ms (run_subprocess:175): running /opt/homebrew/opt/python@3.12/libexec/bin/python -m venv --without-pip /Users/giuseppesena/.local/pipx/venvs/bot-py
+   293.8ms (run_subprocess:195): stdout:
+   293.8ms (run_subprocess:197): stderr:
+   293.9ms (run_subprocess:198): returncode: 0
+   294.3ms (run_subprocess:175): running /opt/homebrew/opt/python@3.12/libexec/bin/python -m venv --clear /Users/giuseppesena/.local/pipx/shared
+  1429.8ms (run_subprocess:195): stdout:
+  1429.9ms (run_subprocess:197): stderr:
+  1429.9ms (run_subprocess:198): returncode: 0
+  1430.1ms (run_subprocess:175): running <checking pip's availability>
+  1445.0ms (run_subprocess:195): stdout: ModuleSpec(name='pip', loader=<_frozen_importlib_external.SourceFileLoader object at 0x1011fb9b0>, origin='/Users/giuseppesena/.local/pipx/shared/lib/python3.12/site-packages/pip/__init__.py', submodule_search_locations=['/Users/giuseppesena/.local/pipx/shared/lib/python3.12/site-packages/pip'])
+  1445.1ms (run_subprocess:198): returncode: 0
+  1445.2ms (upgrade:119): Upgrading shared libraries in /Users/giuseppesena/.local/pipx/shared
+  1445.4ms (run_subprocess:175): running /Users/giuseppesena/.local/pipx/shared/bin/python -m pip --no-input --disable-pip-version-check install --force-reinstall -q --upgrade pip >= 23.1
+  2587.1ms (run_subprocess:195): stdout:
+  2587.1ms (run_subprocess:197): stderr:
+  2587.2ms (run_subprocess:198): returncode: 0
+  2587.5ms (run_subprocess:175): running /Users/giuseppesena/.local/pipx/venvs/bot-py/bin/python -c import sysconfig; print(sysconfig.get_path('purelib'))
+  2603.0ms (run_subprocess:195): stdout: /Users/giuseppesena/.local/pipx/venvs/bot-py/lib/python3.12/site-packages
+  2603.0ms (run_subprocess:198): returncode: 0
+  2603.3ms (run_subprocess:175): running /Users/giuseppesena/.local/pipx/shared/bin/python -c import sysconfig; print(sysconfig.get_path('purelib'))
+  2617.9ms (run_subprocess:195): stdout: /Users/giuseppesena/.local/pipx/shared/lib/python3.12/site-packages
+  2618.0ms (run_subprocess:198): returncode: 0
+  2618.3ms (run_subprocess:175): running /Users/giuseppesena/.local/pipx/venvs/bot-py/bin/python --version
+  2623.8ms (run_subprocess:195): stdout: Python 3.12.7
+  2623.8ms (run_subprocess:197): stderr:
+  2623.8ms (run_subprocess:198): returncode: 0
+  2624.1ms (_parsed_package_to_package_or_url:139): cleaned package spec: bot-py
+  2624.1ms (install_package:247): Installing bot-py
+  2624.2ms (run_subprocess:175): running /Users/giuseppesena/.local/pipx/venvs/bot-py/bin/python -m pip --no-input install bot-py
+  3042.6ms (run_subprocess:198): returncode: 1
+  3042.8ms (subprocess_post_check_handle_pip_error:332): '/Users/giuseppesena/.local/pipx/venvs/bot-py/bin/python -m pip --no-input install bot-py' failed
+  3043.1ms (subprocess_post_check_handle_pip_error:347): Fatal error from pip prevented installation. Full pip output in file:
+    /Users/giuseppesena/.local/pipx/logs/cmd_2024-10-09_21.02.52_pip_errors.log
+  3043.7ms (rmdir:56): removing directory /Users/giuseppesena/.local/pipx/venvs/bot-py
+  3044.8ms (cli:1179): PipxError: Error installing bot-py.
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/pipx/1.7.1/libexec/lib/python3.12/site-packages/pipx/main.py", line 1176, in cli
+    return run_pipx_command(parsed_pipx_args, subparsers)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/pipx/1.7.1/libexec/lib/python3.12/site-packages/pipx/main.py", line 282, in run_pipx_command
+    return commands.install(
+           ^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/pipx/1.7.1/libexec/lib/python3.12/site-packages/pipx/commands/install.py", line 99, in install
+    venv.install_package(
+  File "/opt/homebrew/Cellar/pipx/1.7.1/libexec/lib/python3.12/site-packages/pipx/venv.py", line 265, in install_package
+    raise PipxError(f"Error installing {full_package_description(package_name, package_or_url)}.")
+pipx.util.PipxError: Error installing bot-py.
+  3045.5ms (cli:1187): pipx finished.

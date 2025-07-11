@@ -1,0 +1,193 @@
+2024-11-18T10:01:25.863Z [debug] [main] Creazione sicura di una nuova istanza di CMakeProject in corso
+2024-11-18T10:01:25.864Z [debug] [variant] Costruzione di VariantManager
+2024-11-18T10:01:25.864Z [debug] [main] Costruzione di una nuova istanza di CMakeProject in corso
+2024-11-18T10:01:25.864Z [debug] [main] Avvio dell'inizializzazione della seconda fase di CMake Tools in corso
+2024-11-18T10:01:25.865Z [debug] [expand] Espansa ${workspaceFolder}
+2024-11-18T10:01:25.866Z [debug] [kit] Lettura del file dei kit /Users/giuseppesena/.local/share/CMakeTools/cmake-tools-kits.json
+2024-11-18T10:01:25.890Z [info] [kit] I 2 kit sono stati caricati da /Users/giuseppesena/.local/share/CMakeTools/cmake-tools-kits.json
+2024-11-18T10:01:25.894Z [debug] [kit] Lettura del file dei kit non esistente non in corso: /Users/giuseppesena/Documents/Democ/.vscode/cmake-kits.json
+2024-11-18T10:01:25.901Z [info] [variant] Il nuovo set di varianti è stato caricato
+2024-11-18T10:01:25.902Z [debug] [main] Inizializzazione dell'istanza di CMakeProject completata.
+2024-11-18T10:01:25.906Z [info] [kit] È stata rilevata la modifica della versione della definizione dei kit da undefined a 2. Verrà eseguita l'analisi dei kit senza avvisi.
+2024-11-18T10:01:25.914Z [debug] [kitsController] Rianalisi dei kit
+2024-11-18T10:01:25.914Z [debug] [kit] Ricerca dei kit nel sistema
+2024-11-18T10:01:25.915Z [debug] [kit] Ricerca dei compilatori nella directory /Library/Frameworks/Python.framework/Versions/3.13/bin
+2024-11-18T10:01:25.916Z [debug] [kit] Ricerca dei compilatori nella directory /opt/homebrew/bin
+2024-11-18T10:01:25.916Z [debug] [kit] Ricerca dei compilatori nella directory /opt/homebrew/sbin
+2024-11-18T10:01:25.916Z [debug] [kit] Ricerca dei compilatori nella directory /Library/Frameworks/Python.framework/Versions/3.12/bin
+2024-11-18T10:01:25.916Z [debug] [kit] Ricerca dei compilatori nella directory /usr/local/bin
+2024-11-18T10:01:25.916Z [debug] [kit] Ricerca dei compilatori nella directory /System/Cryptexes/App/usr/bin
+2024-11-18T10:01:25.916Z [debug] [kit] Ricerca dei compilatori nella directory /usr/bin
+2024-11-18T10:01:25.916Z [debug] [kit] Ricerca dei compilatori nella directory /bin
+2024-11-18T10:01:25.916Z [debug] [kit] Ricerca dei compilatori nella directory /usr/sbin
+2024-11-18T10:01:25.916Z [debug] [kit] Ricerca dei compilatori nella directory /sbin
+2024-11-18T10:01:25.916Z [debug] [kit] L'analisi del percorso non esistente /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin verrà ignorata
+2024-11-18T10:01:25.916Z [debug] [kit] Sono stati trovati 0 kit nella directory /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin
+2024-11-18T10:01:25.916Z [debug] [kit] L'analisi del percorso non esistente /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin verrà ignorata
+2024-11-18T10:01:25.916Z [debug] [kit] Sono stati trovati 0 kit nella directory /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin
+2024-11-18T10:01:25.916Z [debug] [kit] L'analisi del percorso non esistente /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin verrà ignorata
+2024-11-18T10:01:25.916Z [debug] [kit] Sono stati trovati 0 kit nella directory /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin
+2024-11-18T10:01:25.916Z [debug] [kit] Ricerca dei compilatori nella directory /Library/Apple/usr/bin
+2024-11-18T10:01:25.916Z [debug] [kit] L'analisi del percorso non esistente undefined\LLVM\bin verrà ignorata
+2024-11-18T10:01:25.916Z [debug] [kit] Sono stati trovati 0 kit nella directory undefined\LLVM\bin
+2024-11-18T10:01:25.916Z [debug] [kit] Ricerca dei compilatori nella directory /usr/local/mysql-9.1.0-macos14-arm64/bin
+2024-11-18T10:01:25.917Z [debug] [kit] L'analisi del percorso non esistente undefined\msys64\mingw64\bin verrà ignorata
+2024-11-18T10:01:25.917Z [debug] [kit] Sono stati trovati 0 kit nella directory undefined\msys64\mingw64\bin
+2024-11-18T10:01:25.917Z [debug] [kit] L'analisi del percorso non esistente undefined\msys64\clang32\bin verrà ignorata
+2024-11-18T10:01:25.917Z [debug] [kit] Sono stati trovati 0 kit nella directory undefined\msys64\clang32\bin
+2024-11-18T10:01:25.917Z [debug] [kit] L'analisi del percorso non esistente undefined\msys64\clang64\bin verrà ignorata
+2024-11-18T10:01:25.917Z [debug] [kit] Sono stati trovati 0 kit nella directory undefined\msys64\clang64\bin
+2024-11-18T10:01:25.917Z [debug] [kit] L'analisi del percorso non esistente undefined\msys64\mingw32\bin verrà ignorata
+2024-11-18T10:01:25.917Z [debug] [kit] Sono stati trovati 0 kit nella directory undefined\msys64\mingw32\bin
+2024-11-18T10:01:25.917Z [debug] [kit] L'analisi del percorso non esistente undefined\msys64\clangarm64\bin verrà ignorata
+2024-11-18T10:01:25.917Z [debug] [kit] Sono stati trovati 0 kit nella directory undefined\msys64\clangarm64\bin
+2024-11-18T10:01:25.917Z [debug] [kit] L'analisi del percorso non esistente undefined\msys64\ucrt64\bin verrà ignorata
+2024-11-18T10:01:25.917Z [debug] [kit] Sono stati trovati 0 kit nella directory undefined\msys64\ucrt64\bin
+2024-11-18T10:01:25.918Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-11-18T10:01:25.920Z [debug] [kit] Sono stati trovati 0 kit nella directory /opt/homebrew/sbin
+2024-11-18T10:01:25.921Z [debug] [kit] Sono stati trovati 0 kit nella directory /opt/homebrew/bin
+2024-11-18T10:01:25.921Z [debug] [kit] Sono stati trovati 0 kit nella directory /System/Cryptexes/App/usr/bin
+2024-11-18T10:01:25.921Z [debug] [kit] Sono stati trovati 0 kit nella directory /Library/Frameworks/Python.framework/Versions/3.12/bin
+2024-11-18T10:01:25.923Z [debug] [kit] Sono stati trovati 0 kit nella directory /bin
+2024-11-18T10:01:25.923Z [debug] [kit] Sono stati trovati 0 kit nella directory /Library/Frameworks/Python.framework/Versions/3.13/bin
+2024-11-18T10:01:25.924Z [debug] [kit] Sono stati trovati 0 kit nella directory /sbin
+2024-11-18T10:01:25.924Z [debug] [kit] Sono stati trovati 0 kit nella directory /usr/local/bin
+2024-11-18T10:01:25.927Z [debug] [kit] Sono stati trovati 0 kit nella directory /usr/sbin
+2024-11-18T10:01:25.928Z [debug] [kit] Sono stati trovati 0 kit nella directory /usr/local/mysql-9.1.0-macos14-arm64/bin
+2024-11-18T10:01:25.929Z [debug] [kit] Test del file binario Clang: /usr/bin/clang
+2024-11-18T10:01:25.929Z [info] [proc] Esecuzione del comando: /usr/bin/clang -v
+2024-11-18T10:01:25.932Z [debug] [kit] Test del file binario GCC: /usr/bin/gcc
+2024-11-18T10:01:25.932Z [info] [proc] Esecuzione del comando: /usr/bin/gcc -v
+2024-11-18T10:01:25.934Z [debug] [kit] Test del file binario GCC: /usr/bin/llvm-gcc
+2024-11-18T10:01:25.934Z [info] [proc] Esecuzione del comando: /usr/bin/llvm-gcc -v
+2024-11-18T10:01:25.940Z [debug] [kit] Sono stati trovati 0 kit nella directory /Library/Apple/usr/bin
+2024-11-18T10:01:26.017Z [debug] [kit] Compilatore Clang rilevato: /usr/bin/clang
+2024-11-18T10:01:26.017Z [debug] [kit] Compilatore Clang rilevato: /usr/bin/clang
+2024-11-18T10:01:26.017Z [debug] [kit] Binario GCC non valido. versione report "/usr/bin/gcc -v": output : Apple clang version 16.0.0 (clang-1600.0.26.4)
+Target: arm64-apple-darwin24.1.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+2024-11-18T10:01:26.017Z [debug] [kit] Binario GCC non valido. versione report "/usr/bin/llvm-gcc -v": output : Apple clang version 16.0.0 (clang-1600.0.26.4)
+Target: arm64-apple-darwin24.1.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+2024-11-18T10:01:26.017Z [debug] [kit] Sono stati trovati 1 kit nella directory /usr/bin
+2024-11-18T10:01:26.017Z [info] [kit] Kit trovato (attendibile): Clang 16.0.0 arm64-apple-darwin24.1.0
+2024-11-18T10:01:26.017Z [debug] [kitsController] Salvataggio dei kit in /Users/giuseppesena/.local/share/CMakeTools/cmake-tools-kits.json
+2024-11-18T10:01:26.017Z [debug] [kitsController] Salvataggio dei nuovi kit in /Users/giuseppesena/.local/share/CMakeTools/cmake-tools-kits.json
+2024-11-18T10:01:26.055Z [debug] [kit] Lettura del file dei kit /Users/giuseppesena/.local/share/CMakeTools/cmake-tools-kits.json
+2024-11-18T10:01:26.059Z [info] [kit] I 2 kit sono stati caricati da /Users/giuseppesena/.local/share/CMakeTools/cmake-tools-kits.json
+2024-11-18T10:01:30.871Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-11-18T10:01:40.935Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-11-18T10:01:43.113Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-11-18T10:01:46.156Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-11-18T10:03:47.340Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-11-18T10:04:06.157Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-11-18T10:04:11.397Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-11-18T10:05:12.476Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-11-18T10:05:15.114Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-11-18T10:05:37.211Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-11-18T10:06:19.338Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-11-18T10:08:19.233Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-11-18T10:08:24.491Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-11-18T10:08:30.918Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-11-18T11:25:43.818Z [debug] [extension] Disattiva CMakeTools
+ selezionato alcun kit
+2024-11-17T11:28:16.816Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-11-17T11:29:04.767Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-11-17T11:29:08.732Z [debug] [extension] Disattiva CMakeTools
+tato selezionato alcun kit
+2024-10-01T17:02:18.814Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:03:10.141Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:03:45.996Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:04:01.853Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:05:04.180Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:05:33.461Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:05:52.317Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:06:32.485Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:06:41.461Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:09:45.381Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:10:02.216Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:10:22.017Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:10:39.214Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:11:46.769Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:11:57.890Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:12:35.048Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:14:03.391Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:14:12.316Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:14:22.048Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:15:16.579Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:15:25.142Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:16:25.259Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:16:40.607Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:16:50.921Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:16:55.638Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:17:01.343Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:18:46.288Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:19:47.641Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:19:58.184Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:20:13.484Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:20:29.225Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:21:52.862Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:22:06.550Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:22:12.779Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:22:37.708Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:23:04.319Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:23:13.850Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:23:29.098Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:23:44.572Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:23:56.462Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:25:07.672Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:32:08.887Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:32:31.333Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:33:51.375Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:34:33.829Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:35:00.818Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:35:24.600Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:35:30.244Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:35:48.121Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:36:09.730Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:36:45.939Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:36:52.984Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:37:11.378Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:37:36.793Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:37:59.750Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:38:10.893Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:38:18.269Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:38:59.294Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:39:06.827Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:39:48.358Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:40:02.418Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:40:36.762Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:40:58.218Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:41:15.041Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:41:31.520Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:42:05.870Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:42:31.474Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:42:56.255Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:43:40.163Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:44:00.975Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:50:14.872Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:51:30.712Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:52:12.559Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:52:35.008Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:52:42.659Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:53:14.321Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:53:53.098Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:54:01.431Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:54:08.876Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:54:16.597Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:54:26.671Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:54:52.725Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:55:05.876Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:55:18.231Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:55:33.306Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:56:06.693Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:56:36.186Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:56:48.395Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:57:20.070Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:57:55.469Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T17:58:50.313Z [debug] [main] Il driver CMake non verrà avviato: non è stato selezionato alcun kit
+2024-10-01T19:19:52.617Z [debug] [extension] Disattiva CMakeTools

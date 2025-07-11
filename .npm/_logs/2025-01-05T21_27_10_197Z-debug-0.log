@@ -1,0 +1,42 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.9.0
+2 info using node@v22.12.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/giuseppesena/Library/Caches/typescript/5.6/.npmrc
+5 silly config load:file:/Users/giuseppesena/.npmrc
+6 silly config load:file:/usr/local/etc/npmrc
+7 verbose title npm install types-registry@latest
+8 verbose argv "install" "--ignore-scripts" "types-registry@latest"
+9 verbose logfile logs-max:10 dir:/Users/giuseppesena/.npm/_logs/2025-01-05T21_27_10_197Z-
+10 verbose logfile /Users/giuseppesena/.npm/_logs/2025-01-05T21_27_10_197Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+13 silly logfile done cleaning log files
+14 silly packumentCache corgi:https://registry.npmjs.org/types-registry cache-miss
+15 http fetch GET 200 https://registry.npmjs.org/npm 253ms
+16 http fetch GET 200 https://registry.npmjs.org/types-registry 242ms (cache updated)
+17 silly packumentCache corgi:https://registry.npmjs.org/types-registry set size:undefined disposed:false
+18 silly idealTree buildDeps
+19 silly fetch manifest types-registry@0.1.702
+20 silly packumentCache full:https://registry.npmjs.org/types-registry cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/types-registry 64ms (cache updated)
+22 silly packumentCache full:https://registry.npmjs.org/types-registry set size:undefined disposed:false
+23 silly placeDep ROOT types-registry@0.1.702 OK for:  want: 0.1.702
+24 silly reify moves {}
+25 silly audit bulk request { 'types-registry': [ '0.1.702' ] }
+26 silly tarball no local data for types-registry@https://registry.npmjs.org/types-registry/-/types-registry-0.1.702.tgz. Extracting by manifest.
+27 http fetch GET 200 https://registry.npmjs.org/types-registry/-/types-registry-0.1.702.tgz 78ms (cache miss)
+28 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 212ms
+29 silly audit report {}
+30 silly ADD node_modules/types-registry
+31 verbose cwd /Users/giuseppesena/Library/Caches/typescript/5.6
+32 verbose os Darwin 24.2.0
+33 verbose node v22.12.0
+34 verbose npm  v10.9.0
+35 notice
+35 notice New major version of npm available! 10.9.0 -> 11.0.0
+35 notice Changelog: https://github.com/npm/cli/releases/tag/v11.0.0
+35 notice To update run: npm install -g npm@11.0.0
+35 notice  { force: true, [Symbol(proc-log.meta)]: true }
+36 verbose exit 0
+37 info ok

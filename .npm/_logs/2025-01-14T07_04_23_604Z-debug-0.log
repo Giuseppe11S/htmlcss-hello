@@ -1,0 +1,43 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.9.0
+2 info using node@v22.12.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/giuseppesena/.npmrc
+5 silly config load:file:/usr/local/etc/npmrc
+6 verbose title npm i bootstrap@5.3.3
+7 verbose argv "i" "bootstrap@5.3.3"
+8 verbose logfile logs-max:10 dir:/Users/giuseppesena/.npm/_logs/2025-01-14T07_04_23_604Z-
+9 verbose logfile /Users/giuseppesena/.npm/_logs/2025-01-14T07_04_23_604Z-debug-0.log
+10 silly logfile start cleaning logs, removing 1 files
+11 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+12 silly idealTree buildDeps
+13 silly fetch manifest bootstrap@5.3.3
+14 silly packumentCache full:https://registry.npmjs.org/bootstrap cache-miss
+15 silly logfile done cleaning log files
+16 http fetch GET 200 https://registry.npmjs.org/bootstrap 206ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/bootstrap set size:undefined disposed:false
+18 silly fetch manifest @popperjs/core@^2.11.8
+19 silly packumentCache full:https://registry.npmjs.org/@popperjs%2fcore cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/npm 265ms
+21 http fetch GET 200 https://registry.npmjs.org/@popperjs%2fcore 89ms (cache miss)
+22 silly packumentCache full:https://registry.npmjs.org/@popperjs%2fcore set size:undefined disposed:false
+23 silly placeDep ROOT bootstrap@5.3.3 OK for:  want: 5.3.3
+24 silly placeDep ROOT @popperjs/core@2.11.8 OK for: bootstrap@5.3.3 want: ^2.11.8
+25 silly reify moves {}
+26 silly tarball no local data for @popperjs/core@https://registry.npmjs.org/@popperjs/core/-/core-2.11.8.tgz. Extracting by manifest.
+27 silly tarball no local data for bootstrap@https://registry.npmjs.org/bootstrap/-/bootstrap-5.3.3.tgz. Extracting by manifest.
+28 http fetch GET 200 https://registry.npmjs.org/@popperjs/core/-/core-2.11.8.tgz 133ms (cache miss)
+29 http fetch GET 200 https://registry.npmjs.org/bootstrap/-/bootstrap-5.3.3.tgz 152ms (cache miss)
+30 silly ADD node_modules/@popperjs/core
+31 silly ADD node_modules/bootstrap
+32 verbose cwd /Users/giuseppesena
+33 verbose os Darwin 24.2.0
+34 verbose node v22.12.0
+35 verbose npm  v10.9.0
+36 notice
+36 notice New [31mmajor[39m version of npm available! [31m10.9.0[39m -> [34m11.0.0[39m
+36 notice Changelog: [34mhttps://github.com/npm/cli/releases/tag/v11.0.0[39m
+36 notice To update run: [4mnpm install -g npm@11.0.0[24m
+36 notice  { force: true, [Symbol(proc-log.meta)]: true }
+37 verbose exit 0
+38 info ok

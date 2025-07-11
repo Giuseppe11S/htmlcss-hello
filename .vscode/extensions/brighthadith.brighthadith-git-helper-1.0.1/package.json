@@ -1,0 +1,74 @@
+{
+	"name": "brighthadith-git-helper",
+	"displayName": "Cheatsheet: Git Command",
+	"description": "A helpful Git command cheatsheet for developers.",
+	"version": "1.0.1",
+	"engines": {
+		"vscode": "^1.93.0"
+	},
+	"categories": [
+		"Other",
+		"Programming Languages"
+	],
+	"keywords": [
+		"git",
+		"cheatsheet",
+		"commands",
+		"vscode",
+		"developer-tools"
+	],
+	"activationEvents": [
+		"onCommand:open.git.cheatsheet"
+	],
+	"vsce": {
+		"githubBranch": "main"
+	},
+	"license": "MIT",
+	"icon": "assets/images/logo.png",
+	"main": "./out/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "gitCheatsheet.show",
+				"title": "Git Cheatsheet: Show"
+			}
+		]
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/md-golamrabbani/vscode-extension-git-cheat-sheet"
+	},
+	"publisher": "brighthadith",
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"pretest": "npm run compile && npm run lint",
+		"lint": "eslint src",
+		"test": "vscode-test"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.93.0",
+		"@types/mocha": "^10.0.7",
+		"@types/node": "20.x",
+		"@typescript-eslint/eslint-plugin": "^8.3.0",
+		"@typescript-eslint/parser": "^8.3.0",
+		"eslint": "^9.9.1",
+		"typescript": "^5.5.4",
+		"@vscode/test-cli": "^0.0.10",
+		"@vscode/test-electron": "^2.4.1"
+	},
+	"__metadata": {
+		"id": "80c4fe77-3309-4f7a-9b3f-1937050391f3",
+		"publisherId": "6648f56c-91ad-47ee-bf4b-f7810b4ae121",
+		"publisherDisplayName": "Bright Hadith",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"isPreReleaseVersion": false,
+		"hasPreReleaseVersion": false,
+		"installedTimestamp": 1733761189418,
+		"pinned": false,
+		"preRelease": false,
+		"source": "gallery"
+	}
+}
